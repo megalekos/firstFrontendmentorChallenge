@@ -1,0 +1,11 @@
+body {
+    color: white;
+    background-color: hsl(233, 47%, 7%) ;
+}
+div {
+    background-color: hsl(244, 38%, 16%);
+}
+span:after {
+    content: "\A";
+    white-space: pre;
+}
