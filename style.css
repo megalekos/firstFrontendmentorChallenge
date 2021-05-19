@@ -3,22 +3,42 @@ body {
     background-color: hsl(233, 47%, 7%) ;
     font-family: Inter;
 }
-div {
+.card {
     background-color: hsl(244, 38%, 16%);
 }
 
+.text-container {
+    max-width: 400px;
+}
+
 h1 {
-    
+    letter-spacing: 1px;
+}
+
+.heading-accent {
+    color: hsl(277, 64%, 61%);
 }
 
 p {
     font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-right: 10px;
+    line-height: 1.4em;
+}
+
+.stat-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
 
 ul {
+    color: hsla(0, 0%, 100%, 0.6);
     list-style: none;
     padding-left: 0px;
     font-family: Lexend Deca;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 /* From an accesibility standpoint, which is best: <br> with 'aria-hidden' or the below?
 span:after {
