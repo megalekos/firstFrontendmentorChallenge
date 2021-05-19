@@ -1,11 +1,28 @@
 body {
     color: white;
     background-color: hsl(233, 47%, 7%) ;
+    font-family: Inter;
 }
 div {
     background-color: hsl(244, 38%, 16%);
 }
+
+h1 {
+    
+}
+
+p {
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    font-family: Lexend Deca;
+}
+/* From an accesibility standpoint, which is best: <br> with 'aria-hidden' or the below?
 span:after {
     content: "\A";
     white-space: pre;
-}
+}*/
+
