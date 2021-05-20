@@ -5,10 +5,15 @@ body {
 }
 .card {
     background-color: hsl(244, 38%, 16%);
+    display: flex;
+    margin:auto;
+    max-height: 600px;
+    max-width: 1200px;
 }
 
 .text-container {
-    max-width: 400px;
+    max-height: 300px;
+    padding: 100px;
 }
 
 h1 {
@@ -22,7 +27,7 @@ h1 {
 p {
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    padding-right: 10px;
+    /*padding-right: 10px;*/
     line-height: 1.4em;
 }
 
@@ -37,9 +42,33 @@ ul {
     list-style: none;
     padding-left: 0px;
     font-family: Lexend Deca;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    line-height: 1.7;
 }
+.image-container {
+    height: 400px;
+    background-color: hsl(277, 64%, 61%);
+    width: 50%;
+    background-image: url("images/image-header-desktop.jpg");
+    background-blend-mode: multiply;
+}
+img {
+   height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+/*.overlay {
+    background-color: white;
+    z-index: 2;
+    opacity: 40%;
+    height: auto;
+    width: auto;
+   
+}*/
+
 /* From an accesibility standpoint, which is best: <br> with 'aria-hidden' or the below?
 span:after {
     content: "\A";
