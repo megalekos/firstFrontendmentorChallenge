@@ -8,7 +8,7 @@ body {
     display: flex;
     margin:auto;
     max-height: 600px;
-    max-width: 1200px;
+    max-width: 90%;
 }
 
 .text-container {
@@ -46,7 +46,15 @@ ul {
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 1.7;
+    justify-content: space-between;
+    display: flex;
 }
+
+li  {
+    
+    
+}
+
 .image-container {
     height: 400px;
     background-color: hsl(277, 64%, 61%);
