@@ -37,7 +37,6 @@ h1 {
 p {
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
-    /*padding-right: 10px;*/
     line-height: 1.4em;
 }
 
@@ -72,20 +71,7 @@ ul {
     background-size: cover;
    
 }
-/*img {
-   height: 100%;
-    object-fit: cover;
-    opacity: 0.6;
-}*/
 
-/*.overlay {
-    background-color: white;
-    z-index: 2;
-    opacity: 40%;
-    height: auto;
-    width: auto;
-   
-}*/
 
 /* From an accesibility standpoint, which is best: <br> with 'aria-hidden' or the below?
 span:after {
